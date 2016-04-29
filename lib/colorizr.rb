@@ -23,12 +23,7 @@ class String
   end
   
   def self.colors
-    puts "Colors :"
-    @@colors_map.each do |k,v|
-      puts k
-    end
-    
-    return
+    puts @@colors_map.keys
   end
   
 end
