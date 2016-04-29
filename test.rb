@@ -1,7 +1,7 @@
 require 'colorizr'
 
 String.create_colors
-puts "aaa".methods 
+puts String.colors
 
 puts "John".red
 puts "Paul".green
