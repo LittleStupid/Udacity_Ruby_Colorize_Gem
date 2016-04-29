@@ -1,6 +1,5 @@
 require 'colorizr'
 
-String.create_colors
 puts String.colors
 
 puts "John".red
