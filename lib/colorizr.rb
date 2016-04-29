@@ -26,6 +26,12 @@ class String
     puts @@colors_map.keys
   end
   
+  def self.sample_colors
+    @@colors_map.each do |k,v|
+      puts ( "I am " + k ).send( k )
+    end
+  end
+  
 end
 
 String.create_colors
