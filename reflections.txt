@@ -1,0 +1,12 @@
+How does your gem take advantage of Ruby’s metaprogramming capabilities?
+use self.send( :define_method, param ) to define new color method
+
+
+How long did you spend working on this project?
+1.5 hours
+
+What was the most rewarding challenge you conquered?
+how to create new method
+
+Where do you still have room to grow?
+There are many ways to manipulate Hash, and I need to study more.
